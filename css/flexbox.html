@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            border:1px dotted red;
+            display:flex;  
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+            align-content: flex-start;
+        }
+
+        li {
+        border :1px solid black;
+        margin:0.5em;
+        padding:0.5em;
+
+        }
+
+        .flex1{
+
+            order:1;
+            border: 3px dotted red;
+            flex-basis: 25%;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="flex1">one</li>
+        <li class="flex1">two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+</body>
+</html>
